@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 0.0, 622.0, 960.0, 1132.0 ],
+		"rect" : [ 377.0, 270.0, 495.0, 172.0 ],
 		"bgcolor" : [ 0.509804, 0.509804, 0.509804, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -50,8 +50,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1023.333252, 260.5, 34.0, 20.0 ],
-					"text" : "gate"
+					"patching_rect" : [ 1023.333252, 260.5, 54.0, 20.0 ],
+					"text" : "gate 1 1"
 				}
 
 			}
@@ -404,7 +404,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 295.0, 964.0, 200.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 538.75, 630.5, 48.0, 32.0 ],
+					"presentation_rect" : [ 300.75, 130.5, 48.0, 32.0 ],
 					"tabs" : [ "mono", "stereo" ]
 				}
 
@@ -506,7 +506,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 503.166656, 650.0, 91.5, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 488.75, 610.5, 49.0, 32.0 ],
+					"presentation_rect" : [ 250.75, 110.5, 49.0, 32.0 ],
 					"tabs" : [ "saw", "sin" ]
 				}
 
@@ -552,7 +552,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 30.75, 665.0, 91.5, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 423.25, 610.5, 49.0, 32.0 ],
+					"presentation_rect" : [ 185.25, 110.5, 49.0, 32.0 ],
 					"tabs" : [ "saw", "sin" ]
 				}
 
@@ -570,7 +570,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 369.333313, 625.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 493.5, 567.0, 40.0, 40.0 ]
+					"presentation_rect" : [ 255.5, 67.0, 40.0, 40.0 ]
 				}
 
 			}
@@ -587,7 +587,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 187.333344, 625.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 428.25, 567.0, 40.0, 40.0 ]
+					"presentation_rect" : [ 190.25, 67.0, 40.0, 40.0 ]
 				}
 
 			}
@@ -706,7 +706,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 132.0, 409.5, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 423.25, 522.5, 50.0, 20.0 ]
+					"presentation_rect" : [ 185.25, 22.5, 50.0, 20.0 ]
 				}
 
 			}
@@ -742,40 +742,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-15",
-					"linecount" : 18,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 628.333313, 530.0, 154.0, 255.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 11,
-					"presentation_rect" : [ 269.25, 353.5, 273.0, 158.0 ],
-					"text" : "Hello there! Welcome to Themote, the Excellent Theremin Wiimote!\n\nThemote rocks not one but TWO audio channels, both of which can toggle between TWO different oscillators! Pitch is controlled by the accelerometer.\n\nPress the A button to get started! Then try B! Then try + while holding B! Then try the arrow keys! Then press 2! Then try - while holding A! "
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-14",
-					"linecount" : 13,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 791.333313, 286.5, 154.0, 186.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 11,
-					"presentation_rect" : [ 538.75, 353.5, 188.0, 158.0 ],
-					"text" : "CONTROLS\nLR right channel instrument\nUD left channel instrument\nTILT left channel freq\nROLL right channel freq\n+ open right channel freq gate\n- hold left channel freq\nA trigger left channel\nB trigger right channel\n1 mono\n2 stereo"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-4",
 					"maxclass" : "number",
 					"numinlets" : 1,
@@ -784,7 +750,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 319.333313, 409.5, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 488.75, 522.5, 50.0, 20.0 ]
+					"presentation_rect" : [ 250.75, 22.5, 50.0, 20.0 ]
 				}
 
 			}
@@ -826,16 +792,16 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 235.5, 882.0, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 538.75, 522.5, 48.0, 108.0 ],
+					"presentation_rect" : [ 300.75, 22.5, 48.0, 108.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_unitstyle" : 4,
-							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_type" : 0,
 							"parameter_shortname" : "live.gain~",
-							"parameter_longname" : "live.gain~"
+							"parameter_longname" : "live.gain~",
+							"parameter_unitstyle" : 4,
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -996,7 +962,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 791.333313, 590.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 361.75, 642.5, 19.0, 20.0 ],
+					"presentation_rect" : [ 123.75, 142.5, 19.0, 20.0 ],
 					"text" : "A"
 				}
 
@@ -1011,7 +977,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 791.333313, 570.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 331.0, 642.5, 19.0, 20.0 ],
+					"presentation_rect" : [ 93.0, 142.5, 19.0, 20.0 ],
 					"text" : "Y"
 				}
 
@@ -1026,7 +992,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 791.333313, 550.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 299.25, 642.5, 24.0, 20.0 ],
+					"presentation_rect" : [ 61.25, 142.5, 24.0, 20.0 ],
 					"text" : "R"
 				}
 
@@ -1041,7 +1007,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 791.333313, 530.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 269.25, 642.5, 19.0, 20.0 ],
+					"presentation_rect" : [ 31.25, 142.5, 19.0, 20.0 ],
 					"text" : "P"
 				}
 
@@ -1056,7 +1022,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 791.333313, 630.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 504.0, 642.5, 19.0, 20.0 ],
+					"presentation_rect" : [ 266.0, 142.5, 19.0, 20.0 ],
 					"text" : "R"
 				}
 
@@ -1071,7 +1037,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 791.333313, 650.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 438.75, 642.5, 19.0, 20.0 ],
+					"presentation_rect" : [ 200.75, 142.5, 19.0, 20.0 ],
 					"text" : "L"
 				}
 
@@ -1088,7 +1054,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 319.333313, 387.5, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 488.75, 542.5, 49.5, 20.0 ]
+					"presentation_rect" : [ 250.75, 42.5, 49.5, 20.0 ]
 				}
 
 			}
@@ -1104,7 +1070,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 132.0, 387.5, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 423.25, 542.5, 49.0, 20.0 ]
+					"presentation_rect" : [ 185.25, 42.5, 49.0, 20.0 ]
 				}
 
 			}
@@ -1433,7 +1399,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 235.5, 1055.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 586.75, 522.5, 140.0, 140.0 ]
+					"presentation_rect" : [ 348.75, 22.5, 140.0, 140.0 ]
 				}
 
 			}
@@ -1505,7 +1471,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 649.25, 197.5, 118.5, 120.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 269.25, 522.5, 120.5, 120.0 ],
+					"presentation_rect" : [ 31.25, 22.5, 120.5, 120.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"size" : 4
 				}
