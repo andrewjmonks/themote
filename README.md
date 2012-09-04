@@ -15,20 +15,20 @@ The audio part was written in Max/MSP, and sends data to the video part which wa
 
 ## Controls
 
-*	*Wiimote Pitch:* instrument 1 frequency
+*	__Wiimote Pitch:__ instrument 1 frequency
 
-*	*Wiimote Roll:* instrument 2 frequency
+*	__Wiimote Roll:__ instrument 2 frequency
 
-*	*-:* lock instrument 1 frequency
+*	__-:__ lock instrument 1 frequency
 
-*	*+:* unlock instrument 2 frequency 
+*	__+:__ unlock instrument 2 frequency 
 
-*	*A:* play instrument 1
+*	__A:__ play instrument 1
 
-*	*B:* play instrument 2
+*	__B:__ play instrument 2
 
-*	*UP / DOWN:* change instrument 1 sound
+*	__UP / DOWN:__ change instrument 1 sound
 
-*	*LEFT / RIGHT:* change instrument 2 sound
+*	__LEFT / RIGHT:__ change instrument 2 sound
 
-*	*1 / 2:* mono / stereo modes
+*	__1 / 2:__ mono / stereo modes
