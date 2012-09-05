@@ -67,7 +67,7 @@ void createSliders()
 
 void draw()
 {
-  background(0x000000);
+
 
   for(int i = 0; i < width; i += xDist)
   {
