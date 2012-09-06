@@ -9,11 +9,13 @@ The audio part was written in Max/MSP, and sends data to the video part which wa
 
 1.	Open themote.oscd in Osculator (http://www.osculator.net/)
 
-2.	Open themote.maxpat in Max6 Runtime (http://cycling74.com/downloads/runtime/)
+2.	Open wiimote.maxpat (https://github.com/andrewjmonks/wiimote)
 
-3.	Click speaker in Max6 Runtime to enable audio
+3.	Open themote.maxpat in Max6 Runtime (http://cycling74.com/downloads/runtime/)
 
-3.	Open and run themote.pde in Processing (http://processing.org) for visuals
+4.	Click speaker in Max6 Runtime to enable audio
+
+5.	Open and run themote.pde in Processing (http://processing.org) for visuals
 
 ## Controls
 
