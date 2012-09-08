@@ -2,6 +2,7 @@ import maxlink.*;
 
 MaxLink link = new MaxLink(this,"themote");
 
+
 public float x,y,b,a;
 public int xDim, yDim, wiiButton;
 

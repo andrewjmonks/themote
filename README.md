@@ -1,6 +1,8 @@
 THEMOTE
 =======
 
+![screenshot](http://cl.ly/JIvo/Screen%20Shot%202012-09-08%20at%205.28.56%20AM.png)
+
 themote is an audio-visual theremin controlled by a wiimote.
 
 The audio part was written in Max/MSP, and sends data to the video part which was written in Processing.
